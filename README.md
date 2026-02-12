@@ -1,8 +1,21 @@
-# Heat-conduction-informed neural network (HCINN)
-This library serves as the code support for the article, reproducing the results of the HCINN model.
+# Physics-Informed Neural Network Framework for Frozen Ground Modeling
 
-The "Reproduce the article" contain six sites' models and provide corresponding drawing code.
+This repository contains the implementation of the heat-conduction-informed neural network (HCINN) framework for frozen ground modeling and the reproducibility materials for the associated study.
 
-The "Training framework" provide a general training process as Hoher Sonnblick 3 case.
+The project is organized into two main components:
 
-The code is about to be uploaded.
+1. **Reproduction of study cases** (site-specific experiments)
+2. **Training framework** (core model architecture and training pipeline)
+
+This top-level README describes the overall structure of the repository. Each subfolder contains (or will contain) its own dedicated README for detailed explanations.
+
+
+## 📦 `requirements.txt`
+
+Lists all required Python dependencies to run the project.
+
+To install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
